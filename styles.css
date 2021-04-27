@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "semibold";
+  src: url(polices/MYRIADPRO-SEMIBOLD.OTF);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(polices/MYRIADPRO-REGULAR.OTF);
+}
+html {
+  font-family: "semibold";
+}
+header {
+  background-color: #4b96d1;
+}
+img {
+  width: 15vw;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  background-color: #4b96d1;
+  transition: background-color 0.5;
+}
+li a:hover {
+  background-color: #fff;
+  color: #4b96d1;
+}
+
+.hautdroit {
+  display: flex;
+  justify-content: right;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 8vh;
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 65vw;
+    height: 30vh;
+}
+
+h2 {
+   font-size : 3rem 
+}
