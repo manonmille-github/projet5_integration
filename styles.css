@@ -1,0 +1,42 @@
+/* polices de tout le site */
+
+@font-face {
+    font-family:"calibri-blod" ;
+    src: url(polices/Fluent_Calibri-Bold.ttf);
+}
+
+@font-face {
+    font-family: "calibri-bloditalic";
+    src: url(polices/Fluent_Calibri-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "calibri-italic";
+    src: url(polices/Fluent_Calibri-Italic.ttf);
+}
+
+@font-face {
+    font-family: "calibri";
+    src: url(polices/Fluent_Calibri.ttf);
+}
+
+@font-face {
+    font-family: "stikasmall-blod";
+    src: url(polices/Fluent_SitkaSmall-Bold.ttf);
+}
+
+@font-face {
+    font-family: "stikasmall-bloditalic";
+    src: url(polices/Fluent_SitkaSmall-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "stikasmall-italic";
+    src: url(polices/Fluent_SitkaSmall-Italic.ttf);
+}
+
+@font-face {
+    font-family: "stikasmall";
+    src: url(polices/Fluent_SitkaSmall.ttf);
+}
+
