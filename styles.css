@@ -105,8 +105,20 @@ footer {
     margin-top: 10vh;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 footer a {
   margin-left : 1vw;
+  text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-family: "semibold";
+    font-size: 1.5rem;
+}
+
+.imagesanction {
+  height: 50vh;
+  width: 40vw;
+  margin-top: 2rem;
 }
