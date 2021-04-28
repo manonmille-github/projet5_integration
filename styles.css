@@ -35,7 +35,7 @@ nav {
   list-style: none;
 }
 
-.flex {
+.logo {
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -56,7 +56,7 @@ li a:hover {
   color: #4b96d1;
 }
 
-.hautdroit {
+.top-header-right {
   display: flex;
   justify-content: right;
 }
@@ -75,12 +75,12 @@ h1 {
     font-size: 5rem;
 }
 
-.logo {
+.imagelogos {
     display: flex;
     justify-content: center;
 }
 
-.logo img {
+.imagelogos img {
     width: 65vw;
     height: 30vh;
 }
@@ -103,4 +103,10 @@ footer {
     background-color: #4b96d1;
     height: 5vh;
     margin-top: 10vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+  margin-left : 1vw;
 }
