@@ -87,7 +87,6 @@ h1 {
 
 h2 {
    font-size : 3rem;
- 
 }
 
 .main-paragraphe{ 
@@ -122,3 +121,6 @@ footer a {
   width: 40vw;
   margin-top: 2rem;
 }
+
+/* partie responsive */
+
