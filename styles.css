@@ -1,7 +1,11 @@
+
+/* on enlève tous les margins et paddings de la page afin d'avoir la main sur tout les margins et paddings */
 * {
   margin: 0;
   padding: 0;
 }
+
+/* les 2 types de polices qui se trouve sur le site */
 @font-face {
   font-family: "semibold";
   src: url(polices/MYRIADPRO-SEMIBOLD.OTF);
@@ -11,20 +15,26 @@
     font-family: "bold";
     src: url(polices/MYRIADPRO-REGULAR.OTF);
 }
+
 html {
   font-family: "semibold";
 }
+
+/* début du css pour le header */
 header {
   background-color: #4b96d1;
 }
+
 img {
   width: 15vw;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
+
 .flex {
   display: flex;
   justify-content: center;
@@ -40,6 +50,7 @@ a {
   background-color: #4b96d1;
   transition: background-color 0.5;
 }
+
 li a:hover {
   background-color: #fff;
   color: #4b96d1;
@@ -50,8 +61,9 @@ li a:hover {
   justify-content: right;
 }
 
+/* début du css pour le contenu du site */
 
-section {
+section { 
     display: flex;
     flex-direction: column;
     align-items: center;
