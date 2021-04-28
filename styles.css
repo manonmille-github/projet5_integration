@@ -1,1 +1,124 @@
-ceci est le style
+/* on enlève tous les margins et paddings de la page afin d'avoir la main sur tout les margins et paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* les 2 types de polices qui se trouve sur le site */
+@font-face {
+  font-family: "semibold";
+  src: url(polices/MYRIADPRO-SEMIBOLD.OTF);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(polices/MYRIADPRO-REGULAR.OTF);
+}
+
+html {
+  font-family: "semibold";
+}
+
+/* début du css pour le header */
+header {
+  background-color: #4b96d1;
+}
+
+img {
+  width: 15vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  background-color: #4b96d1;
+  transition: background-color 0.5;
+}
+
+li a:hover {
+  background-color: #fff;
+  color: #4b96d1;
+}
+
+.top-header-right {
+  display: flex;
+  justify-content: right;
+}
+
+/* début du css pour le contenu du site */
+
+section { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 8vh;
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.imagelogos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagelogos img {
+    width: 65vw;
+    height: 30vh;
+}
+
+h2 {
+   font-size : 3rem;
+}
+
+.main-paragraphe{ 
+    width: 50vw;
+    margin-top: 3vh;
+    padding-left: 5rem;
+    font-family: "bold";
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #4b96d1;
+    height: 5vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer a {
+  margin-right : 2vw;
+  text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-family: "semibold";
+    font-size: 1.5rem;
+  
+}
+
+.imagesanction {
+  height: 50vh;
+  width: 40vw;
+  margin-top: 2rem;
+}
+
+/* début du responsive design */
