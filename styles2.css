@@ -91,6 +91,7 @@ section {
 
 h1 {
     font-size: 5rem;
+    text-align: center;
 }
 
 .imagelogos {
@@ -113,6 +114,10 @@ h2 {
     padding-left: 5rem;
     font-family: "bold";
     font-size: 2rem;
+}
+
+p:hover {
+  border-left: 5px solid #4b96d1;
 }
 
 .main-paragraphe a {
@@ -192,7 +197,7 @@ footer a {
    .main-paragraphe a{
     font-size: 1rem;
   }
-  
+
  section img {
    display: none;
  }

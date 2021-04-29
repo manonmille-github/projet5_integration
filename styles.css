@@ -121,6 +121,10 @@ h2 {
 
 }
 
+p:hover {
+  border-left: 5px solid #4b96d1;
+}
+
 footer {
     background-color: #4b96d1;
     height: 5vh;
