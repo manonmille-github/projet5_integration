@@ -49,7 +49,7 @@ nav a {
   letter-spacing: 0.5px;
   background-color: #4b96d1;
   transition: background-color 0.5;
-  
+  font-family: "semibold";
 }
 
 li a:hover {
@@ -89,6 +89,8 @@ section {
 
 h1 {
     font-size: 5rem;
+    text-align: center;
+
 }
 
 .imagelogos {
@@ -103,6 +105,7 @@ h1 {
 
 h2 {
    font-size : 3rem;
+   text-align: center;
 }
 
 .main-paragraphe{ 
@@ -111,6 +114,7 @@ h2 {
     padding-left: 5rem;
     font-family: "bold";
     font-size: 2rem;
+    text-align: justify;
 }
 
 .main-paragraphe a {
@@ -156,6 +160,7 @@ footer a {
   header{
     height: 24vh;
   }
+
   nav{
    display: flex;
    justify-content:space-around;
@@ -171,6 +176,8 @@ footer a {
     font-size: 2rem;
     margin-bottom: 3rem;
     text-align: center;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
   }
 
   h2{
@@ -185,7 +192,7 @@ footer a {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-family: "bold";
-    text-align: center;
+    ;
   }
 
   .main-paragraphe a{
