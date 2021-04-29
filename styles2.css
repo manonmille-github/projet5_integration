@@ -1,0 +1,213 @@
+/* on enlève tous les margins et paddings de la page afin d'avoir la main sur tout les margins et paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* les 2 types de polices qui se trouve sur le site */
+@font-face {
+  font-family: "semibold";
+  src: url(polices/MYRIADPRO-SEMIBOLD.OTF);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(polices/MYRIADPRO-REGULAR.OTF);
+}
+
+html {
+  font-family: "semibold";
+}
+
+/* début du css pour le header */
+header {
+  background-color: #4b96d1;
+}
+
+img {
+  width: 15vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+ justify-content: left;
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+.logo img {
+    margin-right: 25vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  background-color: #4b96d1;
+  transition: background-color 0.5;
+  
+}
+
+li a:hover {
+  background-color: #fff;
+  color: #4b96d1;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  background-color: #4b96d1;
+}
+
+.top-header-right {
+  display: flex;
+  justify-content: right;
+}
+
+/* début du css pour le contenu du site */
+
+section { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 8vh;
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.imagelogos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagelogos img {
+    width: 65vw;
+    height: 30vh;
+}
+
+h2 {
+   font-size : 3rem;
+}
+
+.main-paragraphe{ 
+    width: 50vw;
+    margin-top: 3vh;
+    padding-left: 5rem;
+    font-family: "bold";
+    font-size: 2rem;
+}
+
+.main-paragraphe a {
+    font-size: 2rem;
+    background-color: white;
+    color:#4b96d1;
+
+}
+
+footer {
+    background-color: #4b96d1;
+    height: 5vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer a {
+  margin-right : 2vw;
+  text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-family: "semibold";
+    font-size: 1.5rem;
+  
+}
+
+.imagesanction {
+  height: 50vh;
+  width: 40vw;
+  margin-top: 2rem;
+}
+
+/* début du responsive design */
+@media screen and (max-width: 1080px)
+{
+  header{
+    height: 24vh;
+  }
+  nav{
+   display: flex;
+   justify-content:space-around;
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+    justify-content: center;
+  }
+
+.logo img {
+    margin-right: 7vw;
+    margin-left : 2vw
+}
+ 
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .main-paragraphe{
+    font-size: 1rem;
+    width: 100vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: "bold";
+    text-align: center;
+  }
+
+   .main-paragraphe a{
+    font-size: 1rem;
+  }
+  
+ section img {
+   display: none;
+ }
+
+ img {
+    width: 30vw;
+    margin-bottom: 1rem;
+ }
+
+ .logo{
+   padding-left: 0;
+ }
+ 
+ footer a {
+   font-size: 1rem;
+ }
+
+}
