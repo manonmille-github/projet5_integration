@@ -28,6 +28,7 @@ img {
   width: 15vw;
 }
 
+<<<<<<< HEAD
 #incrustation_video {
 object-position: center;
 
@@ -35,6 +36,8 @@ object-position: center;
 
 
 
+=======
+>>>>>>> main
 nav {
   display: flex;
   justify-content: space-around;
@@ -44,10 +47,18 @@ nav {
 .logo {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   padding-top: 10px;
   padding-left: 5rem;
 }
 
+=======
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+
+>>>>>>> main
 nav a {
   text-decoration: none;
   color: #fff;
@@ -55,11 +66,33 @@ nav a {
   letter-spacing: 0.5px;
   background-color: #4b96d1;
   transition: background-color 0.5;
+<<<<<<< HEAD
+=======
+  font-family: "semibold";
+>>>>>>> main
 }
 
 li a:hover {
   background-color: #fff;
   color: #4b96d1;
+<<<<<<< HEAD
+=======
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  background-color: #4b96d1;
+>>>>>>> main
 }
 
 .top-header-right {
@@ -69,7 +102,11 @@ li a:hover {
 
 /* début du css pour le contenu du site */
 
+<<<<<<< HEAD
 section {
+=======
+section { 
+>>>>>>> main
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,8 +115,14 @@ section {
 }
 
 h1 {
+<<<<<<< HEAD
 
     font-size: 5rem;
+=======
+    font-size: 5rem;
+    text-align: center;
+
+>>>>>>> main
 }
 
 .imagelogos {
@@ -91,6 +134,7 @@ h1 {
     width: 65vw;
     height: 30vh;
 }
+<<<<<<< HEAD
 /* rem  modif ci dessous fait par fdh */
 h2 {
     font-size : 3rem;
@@ -114,6 +158,30 @@ h1:hover {
 h2:hover {
   border-left: 5px solid #4b96d1;
 }
+=======
+
+h2 {
+   font-size : 3rem;
+   text-align: center;
+}
+
+.main-paragraphe{ 
+    width: 50vw;
+    margin-top: 3vh;
+    padding-left: 5rem;
+    font-family: "bold";
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.main-paragraphe a {
+    font-size: 2rem;
+    background-color: white;
+    color:#4b96d1;
+
+}
+
+>>>>>>> main
 p:hover {
   border-left: 5px solid #4b96d1;
 }
@@ -128,12 +196,20 @@ footer {
 }
 
 footer a {
+<<<<<<< HEAD
   margin-left : 1vw;
+=======
+  margin-right : 2vw;
+>>>>>>> main
   text-decoration: none;
     color: white;
     margin-right: 1rem;
     font-family: "semibold";
     font-size: 1.5rem;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> main
 }
 
 .imagesanction {
@@ -142,6 +218,73 @@ footer a {
   margin-top: 2rem;
 }
 
+<<<<<<< HEAD
 /* PARTIE CSS COMPLETEE PAR FABRICE */
 
 
+=======
+/* début du responsive design */
+
+@media screen and (max-width: 1080px)
+{
+  header{
+    height: 24vh;
+  }
+
+  nav{
+   display: flex;
+   justify-content:space-around;
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+    justify-content: center;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .main-paragraphe{
+    font-size: 1rem;
+    width: 100vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: "bold";
+    ;
+  }
+
+  .main-paragraphe a{
+    font-size: 1rem;
+  }
+
+ section img {
+   display: none;
+ }
+
+ img {
+    width: 30vw;
+    margin-bottom: 1rem;
+ }
+
+ .logo{
+   padding-left: 0;
+ }
+ 
+ footer a {
+   font-size: 1rem;
+ }
+
+}
+>>>>>>> main

@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<title>L'accessibilité web</title>
 </head>
 <body>
-    <h1>
-        L'accessibilité WEB
-    </h1>
-    
-    <img src="images/images.png"
-        alt="4 logos un représente le handicap visuel, le deuxième le handicap cognitif, le troisième le handicap moteur et le dernier le handicap auditif">
-    
-    <h2>
-        Qu'est ce que c'est ?
-    </h2>
-    <p class="main-paragraphe"></p>
+
+    <!--le header-->
+    <header>
+        <div class="container-header">
+
+			<div class="logo">
+				<a href="index.html"><img src="images/logo_hc.png" alt="logo_hc" /></a>
+			</div>
+			<!-- Mettre les liens lorsque les pages seront finies !!!!! ne pas oublier !!! -->
+			<nav class="onglets">
+				<li><a href="index.html">L’accessibilité WEB </a></li>
+				<li><a href="decret.html">Les décrets</a></li>
+				<li><a href="sanction.html">Les sanctions</a></li>
+			</nav>
+
+		</div>
+	</header>
+
+	<!-- début de la page d'acceuil -->
+	<!-- section regroupe tout le contenu de la page d'acceuil -->
+	<section>
+		<h1>
+			L'accessibilité WEB
+		</h1>
+		<div class="imagelogos">
+			<img src="images/images.png"
+				alt="4 logos un représente le handicap visuel, le deuxième le handicap cognitif, le troisième le handicap moteur et le dernier le handicap auditif">
+
+		</div>
+		<!-- main regroupe les h2 et le texte de la page d'acceuil -->
+		<main>
+			<h2>
+				Qu'est ce que c'est ?
+			</h2>
+			<!-- main-paragraphe est à utiliser pout tous les paragraphes du site afin que le css soit en adequation avec toutes les pages -->
+			<p class="main-paragraphe">
+				L'accessibilité c'est rendre le contenu d'un site Internet aaccessible à tous les utilisateurs, quel que
+				soit
+				leur matériel ou logiciel, leur infrastructure réseau, leur langue maternelle, leur culture, leur
+				localisation
+				géographique, leur âge, ou leur aptitudes physiques ou mentales.
+				<!-- ici on utilise encore une fois main-paragraphe pour faire un saut de ligne -->
+			<p class="main-paragraphe">
+				L'accessibilité devient un véritable enjeu marketing et commercial sur un marché de l’Internet en pleine
+				expansion et
+				constitue de plus en plus un atout pour les sociétés sensibles à leur image.
+
+				L’accessibilité d’un site web améliore l’accès des handicapés bien sûr, mais aussi celui de tous les
+				utilisateurs en
+				permettant une meilleure visibilité du site et une meilleure organisation logique et fonctionnelle de
+				l’information.
+
+				Rendre son site accessible c’est contribuer à l’intégration sociale, culturelle et professionnelle des
+				personnes
+				handicapées. C’est un bénéfice moral et civique.
+			</p>
+		</main>
+	</section>
+	<!-- début du footer -->
+	<footer>
+		<a href="https://github.com/OscarM-Code">Oscar MILLOT</a>
+		<a href="https://github.com/BryanCoder100">Bryan PERGAUD</a>
+	</footer>
+
 </body>
-</html>
