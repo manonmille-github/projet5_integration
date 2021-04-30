@@ -1,8 +1,6 @@
-# projet5_integration
-Projet intégration accessibilité
-
-Il s'agit ici d'un projet réalisé pendant notre formation chez Access Code School. Le but de se projet était de réaliser l'intégration d'une maquette designée par un groupe de caramarde. Ce projet avait comme principal objectif d'être accessibile et de parler de l'accesibilité dans le web.
-
-Nous avons codé notre site en html et css.
-
-Ce projet à été réalisé par Fabrice DHERVE https://github.com/Fabdrv , Louis POCHERON https://github.com/louispocheron ET Manon MILLE https://github.com/manonmille-github
+Nous avions pour but d'intégrer une maquette créer par nos camarades. 
+La principale contrainte etait que le site se devait d'être accessible pour tous, facilement compréhensible et design. Pour intégrer nous avons alors utilisé le language HTML et CSS. Les 3 codeurs etaient : 
+-Manon Mille : https://github.com/manonmille-github
+-Fabrice Dherve : 
+-Louis Pocheron : https://github.com/louispocheron
+Nous avons rencontré quelques soucis mais ceux-ci etaient mineurs et facilement résolvable, le projet c'est donc déroulé sans trop d'accrots et dans la bonne ambiance avec les 3 acteurs principaux 
